@@ -1,0 +1,36 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "masterskitchen-dev-20190902180644-authRole",
+			"UnauthRoleArn": "arn:aws:iam::482141105708:role/masterskitchen-dev-20190902180644-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::482141105708:role/masterskitchen-dev-20190902180644-authRole",
+			"Region": "ap-south-1",
+			"DeploymentBucketName": "masterskitchen-dev-20190902180644-deployment",
+			"UnauthRoleName": "masterskitchen-dev-20190902180644-unauthRole",
+			"StackName": "masterskitchen-dev-20190902180644",
+			"StackId": "arn:aws:cloudformation:ap-south-1:482141105708:stack/masterskitchen-dev-20190902180644/52d33ea0-cd7e-11e9-809e-02d311d772f4"
+		}
+	},
+	"auth": {
+		"masterskitchen5b0f4fc3": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/masterskitchen-dev-20190902180644-deployment/amplify-cfn-templates/auth/masterskitchen5b0f4fc3-cloudformation-template.yml",
+				"logicalId": "authmasterskitchen5b0f4fc3"
+			},
+			"lastPushTimeStamp": "2019-09-02T12:41:37.275Z",
+			"output": {
+				"AppClientSecret": "142imn6dvgjd8bp879gbf05c24rrskn5i31dmlns979f5oa0rt74",
+				"UserPoolId": "ap-south-1_oLFakG34z",
+				"AppClientIDWeb": "2h03b1b89jmkvi5kv9652i2jvj",
+				"AppClientID": "19mf8sj9bnen6f82it4ufpbras",
+				"IdentityPoolId": "ap-south-1:66ffc626-58ed-4e77-9388-ea41c81ec1dd",
+				"IdentityPoolName": "masterskitchen5b0f4fc3_identitypool_5b0f4fc3__dev",
+				"UserPoolName": "masterskitchen5b0f4fc3_userpool_5b0f4fc3"
+			},
+			"lastPushDirHash": "exmGNlwzb/5lAtwdrMZVKOOJ/F4="
+		}
+	}
+}

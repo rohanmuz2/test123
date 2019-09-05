@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "masterskitchen-dev-20190902180644-authRole",
+            "UnauthRoleArn": "arn:aws:iam::482141105708:role/masterskitchen-dev-20190902180644-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::482141105708:role/masterskitchen-dev-20190902180644-authRole",
+            "Region": "ap-south-1",
+            "DeploymentBucketName": "masterskitchen-dev-20190902180644-deployment",
+            "UnauthRoleName": "masterskitchen-dev-20190902180644-unauthRole",
+            "StackName": "masterskitchen-dev-20190902180644",
+            "StackId": "arn:aws:cloudformation:ap-south-1:482141105708:stack/masterskitchen-dev-20190902180644/52d33ea0-cd7e-11e9-809e-02d311d772f4"
+        },
+        "categories": {
+            "auth": {
+                "masterskitchen5b0f4fc3": {}
+            }
+        }
+    }
+}

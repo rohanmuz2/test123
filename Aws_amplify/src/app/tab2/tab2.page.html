@@ -1,0 +1,23 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-title strong class="ion-text-center" color="primary">
+      Login
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- <amplify-authenticator framework="Ionic" [usernameAttributes]="usernameAttributes" [signUpConfig]="signUpConfig"></amplify-authenticator> -->
+ 
+  <ion-grid>
+
+<ion-row>
+<ion-col>
+  <amplify-authenticator-ionic [usernameAttributes]="usernameAttributes" [signUpConfig]="signUpConfig"></amplify-authenticator-ionic>
+</ion-col>
+
+</ion-row>
+
+  </ion-grid>
+
+</ion-content>

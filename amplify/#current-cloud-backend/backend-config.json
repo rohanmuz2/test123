@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"masterskitchen5b0f4fc3": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}
